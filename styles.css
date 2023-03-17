@@ -1,2 +1,98 @@
 
 /* Your CSS Code here. */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;1,500&family=Work+Sans:wght@400;500&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Work Sans', sans-serif;
+    }
+:root{
+    --heading:{rgb(0 10 45);}
+    --white:#ffffff;
+    --black:#212529;
+    --helper:#8490ff;
+    --helper-tint:#f3f4ff;
+    --bg:rgb(252, 190, 3);
+    --gradient: linear-gradient(
+        90deg,
+        rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%,
+        rgba(0,212,255,1) 100%);
+    --gradientSupport: -webkit-linear-gradient(
+        90deg, 
+        rgba(2,0,36,1) 0%, 
+        rgba(9,9,121,1) 35%, 
+        rgba(0,212,255,1) 100%
+        );
+    --shadow:0px 0px 20px 0px rgb(132 144 255 /30%);
+    --shadowSupport:0px 0px 20px 0px rgb(132 144 255 /40%);
+}
+html{
+    font-size:65.5%;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header  section start*/
+.navbar {
+  
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header {
+    padding: 0 4.8rem;
+    background: var(--bg);
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-lists {
+  display: flex;
+  gap: 4.8rem;
+}
+.navbar-link:link, .navbar-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 650;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: var(--black);
+  transition: all 0.3s linear;
+}
+.navbar-link:hover,
+.navbar-link:active{
+color: var(--helper);
+}
+
+
+
+/* main */
+
+.song1, .song2, .song3 {
+  background: #222;
+  padding-left: 25%;
+  margin-top: 4rem;
+}
+
+
+
+/* footer section start  */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 2%;
+}
+footer>h3{
+    
+  font-size: 2rem;
+}
