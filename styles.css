@@ -1,7 +1,7 @@
 
 /* Your CSS Code here. */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;1,500&family=Work+Sans:wght@400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;1,500&family=Work+Sans:wght@400;500&display=swap');
     *{
         margin: 0;
         padding: 0;
@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5{
 
 
 /* header  section start*/
-.navbar {
+/* /* .navbar {
   
 }
 li{
@@ -70,22 +70,22 @@ a{
 .navbar-link:hover,
 .navbar-link:active{
 color: var(--helper);
-}
+} */
 
 
 
 /* main */
 
-.song1, .song2, .song3 {
+/* .song1, .song2, .song3 {
   background: #222;
   padding-left: 25%;
   margin-top: 4rem;
 }
 
-
+ */
 
 /* footer section start  */
-footer {
+/* footer {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -95,4 +95,4 @@ footer {
 footer>h3{
     
   font-size: 2rem;
-}
+} */ 
